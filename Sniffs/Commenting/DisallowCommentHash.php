@@ -21,7 +21,7 @@
  *  # This is a hash comment, which is prohibited.
  *  $hello = 'hello';
  * </code>
- * 
+ *
  * @category PHP
  * @package  PHP_CodeSniffer
  * @author   Your Name <you@domain.net>
@@ -44,7 +44,8 @@ class JDS_Sniffs_Commenting_DisallowCommentHash implements PHP_CodeSniffer_Sniff
 
 
     /**
-     * Processes the tokens that this sniff is interested in.
+     * this is just for tutorial about how to create coding rules from scratch.
+     * Processes the tokens that this sniff is interested in. check if after comment using ?. for example //?
      *
      * @param PHP_CodeSniffer_File $phpcsFile The file where the token was found.
      * @param int                  $stackPtr  The position in the stack where
